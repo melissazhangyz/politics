@@ -57,6 +57,5 @@ ces2020 <-
   ) |>
   select(voted_for, gender, education)
 
-
 #### Save data ####
 write_parquet(ces2020, "data/analysis_data/analysis_data.parquet")
